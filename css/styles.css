@@ -681,7 +681,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
@@ -733,7 +733,6 @@ img {
 }
 
 .modal-text {
-  margin-top: 72px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -746,8 +745,7 @@ img {
 .modal-form {
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
-  margin-right: 24px;
+ */
 }
 
 .modal-field {

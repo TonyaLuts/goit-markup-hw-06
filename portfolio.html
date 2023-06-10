@@ -353,22 +353,29 @@
             </li>
           </ul>
         </div>
+        <div>
+          <form class="footer-field">
+            <p class="footer-socials-text">Subscribe</p>
+            <div class="subscribe-wrapp">
+              <label for="user-mail">
+                <input
+                  type="email"
+                  name="user-mail"
+                  id="user-mail"
+                  placeholder="E-mail"
+                  class="footer-input"
+                />
+              </label>
 
-        <form class="footer-field">
-          <p class="footer-socials-text">Subscribe</p>
-          <div class="subscribe-wrapp">
-            <label for="user-mail">
-              <input
-                type="email"
-                name="user-mail"
-                placeholder="E-mail"
-                class="footer-input"
-              />
-            </label>
-
-            <button type="submit" class="btn-subscribe">Subscribe</button>
-          </div>
-        </form>
+              <button type="submit" class="btn-subscribe">
+                Subscribe
+                <svg class="subscribe-icon" width="24" height="20">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
