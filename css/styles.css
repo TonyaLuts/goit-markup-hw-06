@@ -485,8 +485,9 @@ img {
   fill: #f4f4fd;
 }
 
-.subscribe-wrapp {
+.footer-field {
   display: flex;
+  gap: 24px;
 }
 
 .footer-input {
