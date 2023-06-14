@@ -364,8 +364,8 @@ img {
 }
 
 .cusromers-items {
-  /* width: calc((100%-120px) / 6); */
-  width: 168px;
+  width: calc((100% - 120px) / 6);
+  /* width: 168px; */
   height: 88px;
 }
 
@@ -491,7 +491,6 @@ img {
 }
 
 .footer-input {
-  margin-right: 24px;
   padding: 8px 16px;
   width: 264px;
   height: 40px;
@@ -539,7 +538,6 @@ img {
 
 .subscribe-icon {
   fill: #ffffff;
-  margin-left: 16px;
 }
 
 .btn-subscribe:hover,
@@ -884,6 +882,11 @@ img {
   background-color: var(--hover-focus-color);
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-check:hover + .check-text span,
+.modal-check:focus + .check-text span {
+  border-color: var(--acsent-color);
 }
 
 .link-check-text {
